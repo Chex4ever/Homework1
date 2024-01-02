@@ -2,14 +2,77 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        System.out.println("Задача 1:");
+        var dog=8.0;
+        var cat=3.6;
+        var paper=763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        System.out.println("---");
+        System.out.println("Задача 2:");
+        dog=dog+4;
+        cat=cat+4;
+        paper=paper+4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        System.out.println("---");
+        System.out.println("Задача 3:");
+        dog=dog-3.5;
+        cat=cat-1.6;
+        paper=paper-7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        System.out.println("---");
+        System.out.println("Задача 4:");
+        var friend=19;
+        System.out.println(friend);
+        friend+=2;
+        System.out.println(friend);
+        friend/=7;
+        System.out.println(friend);
+
+        System.out.println("---");
+        System.out.println("Задача 5:");
+        var frog=3.5;
+        System.out.println(frog);
+        frog*=10;
+        System.out.println(frog);
+        frog/=3.5;
+        System.out.println(frog);
+        frog+=4;
+        System.out.println(frog);
+
+        System.out.println("---");
+        System.out.println("Задача 6:");
+        var fighter1=78.2;
+        var fighter2=82.7;
+        var fightersWeightSum=fighter1+fighter2;
+        var fightersWeightDelta=Math.abs(fighter1-fighter2);
+        System.out.println("Общая масса бойцов = "+fightersWeightSum);
+        System.out.println("Разница масс бойцов = "+fightersWeightDelta);
+
+        System.out.println("---");
+        System.out.println("Задача 7:");
+        var fightersWeightDelta1=fighter2-fighter1;
+        var fightersWeightDelta2=fighter2%fighter1;
+        System.out.println("Способ 1. Разница масс бойцов = "+fightersWeightDelta1);
+        System.out.println("Способ 2. Разница масс бойцов = "+fightersWeightDelta2);
+
+        System.out.println("---");
+        System.out.println("Задача 8:");
+        var totalWorkHours=640;
+        var employeeWorkHours=8;
+        var totalEmployees=totalWorkHours/employeeWorkHours;
+        System.out.println("Всего работников в компании - " + totalEmployees + " человек");
+        var newTotalEmployees=totalEmployees+94;
+        var newTotalWorkHours=newTotalEmployees*employeeWorkHours;
+        System.out.println("Если в компании работает " + newTotalEmployees + " человек, то всего " +
+                newTotalWorkHours + " часов работы может быть поделено между сотрудниками.");
     }
 }
